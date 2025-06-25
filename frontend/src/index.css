@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+body {
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hover:bg-gray-750:hover {
+  background-color: rgb(55 65 81 / 0.5);
+}
