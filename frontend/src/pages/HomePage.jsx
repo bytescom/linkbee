@@ -5,25 +5,22 @@ import Footer from '../components/Footer'
 import LinkTable from '../components/LinkTable'
 
 const HomePage = () => {
+  return (
+    <div className="min-h-screen flex flex-col bg-gray-900 text-white">
+      {/* Header */}
+      <Navbar />
 
+      {/* Main Content Centered */}
+      <main className="flex-grow flex flex-col justify-center px-6 sm:px-8 lg:px-22 py-6">
+        <LinkInputBox />
+        {/* <LinkTable/> */}
+      </main>
 
-    return (
-        <div className="min-h-screen flex flex-col bg-gray-900 text-white">
-            {/* Header */}
-            <Navbar />
-
-            {/* Main Content */}
-            <main className="flex-grow container mx-auto pt-12 pb-4">
-                <LinkInputBox />
-
-                {/* You can also render Links Table here */}
-                <LinkTable/>
-            </main>
-
-            {/* Footer */}
-            <Footer />
-        </div>
-    )
+      {/* Footer */}
+      <Footer />
+    </div>
+  )
 }
 
 export default HomePage
+
