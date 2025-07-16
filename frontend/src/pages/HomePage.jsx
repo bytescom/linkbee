@@ -13,7 +13,7 @@ const HomePage = () => {
       {/* Main Content Centered */}
       <main className="flex-grow flex flex-col justify-center px-6 sm:px-8 lg:px-22 py-6">
         <LinkInputBox />
-        {/* <LinkTable/> */}
+        <LinkTable/>
       </main>
 
       {/* Footer */}
