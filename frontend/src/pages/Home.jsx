@@ -4,9 +4,9 @@ import LinkInputBox from '../components/LinkInputBox'
 import Footer from '../components/Footer'
 import LinkTable from '../components/LinkTable'
 
-const HomePage = () => {
+const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-900 text-white">
+        <div className="min-h-screen flex flex-col bg-gray-900 text-white">
       {/* Header */}
       <Navbar />
 
@@ -22,5 +22,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
-
+export default Home
